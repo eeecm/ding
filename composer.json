@@ -1,0 +1,19 @@
+{
+    "name": "wd\/ding",
+    "description": "dingding",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangdong",
+            "email": "wd@xunmatong.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wd\\Ding\\": "src"
+        }
+    }
+}
