@@ -13,7 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Wd\\Ding\\": "src"
+            "Ding\\": "src"
+        }
+    },
+    "extra": {
+        "think-config": {
+            "doc": "src/config.php"
         }
     }
 }
